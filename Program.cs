@@ -1,15 +1,21 @@
 ﻿using System;
 
-namespace _01.ExellentGrade
+namespace _02.GreaterNumber
 {
     internal class Program
     {
         static void Main(string[] args)
         {
-            double grade = double.Parse(Console.ReadLine());
-            if (grade >= 5.50)
+            int a = int.Parse(Console.ReadLine());  
+            int b = int.Parse(Console.ReadLine());  
+
+            if (a>b)
             {
-                Console.WriteLine("Exellent!");
+                Console.WriteLine(a);
+            }
+            else
+            {
+                Console.WriteLine(b);
             }
         }
     }
